@@ -38,8 +38,8 @@ from datetime import datetime
 Parameters
 '''''''''''''''''''''
 # Hyperelasticity parameters
-#Gshear  = Constant(0.8)  # Shear modulus, Pa 
-Gshear  = Constant(0.0)  # (un-comment this line to see secondary networks only)
+Gshear  = Constant(0.8)  # Shear modulus, Pa 
+#Gshear  = Constant(0.0)  # (un-comment this line to see secondary networks only)
 stiffen = Constant(50.0)  # nonlinear stiffening parameter 50
 Kbulk   = Constant(1e3)  # Bulk modulus, Pa
 
